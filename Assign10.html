@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="Assign10.js"></script>
+    <link rel="stylesheet" href="Assign10.CSS">
+</head>
+<style>
+
+</style>
+
+<body>
+    <div id="form_div">
+        First_name:<input type="text" id="name"><br> Last_name:
+        <input type="text" id="lname"><br> Gender:
+        <br> male:
+        <input type="radio" id="male"><br> female:
+        <input type="radio" id="female"><br> state:
+        <select id="states">
+                <option></option>
+                <option>california</option>
+                <option>colorado</option>
+                <option>texas</option>
+                </select><br><br><br><br><br><br><br>
+        <button onclick="storeValue()"> save</button>
+    </div>
+    <div id="view_div" disabled>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+
+        <button hidden onclick="edit()" id="btn">Edit</button>
+    </div>
+
+</body>
+
+</html>
